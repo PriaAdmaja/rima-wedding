@@ -5,7 +5,7 @@ const Detail = () => {
         Dengan memohon Rahmat dan Ridho Allah SWT, Kami bermaksud mengundang
         Bapak/Ibu/Saudara/i untuk hadir dalam pernikahan putra/putri kami
       </p>
-      <div className="flex flex-col justify-between flex-3 h-2/3 mb-10">
+      <div className="flex flex-col justify-around flex-3 h-2/3 mb-10">
         <div className="relative">
           <p className="font-msMadi left-1/2 -translate-x-1/2 -top-12 absolute text-9xl opacity-10 -rotate-2">Dani</p>
           <p className="font-cinzel text-2xl">Muhammad Hamdani</p>
