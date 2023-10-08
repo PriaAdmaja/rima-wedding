@@ -9,14 +9,16 @@ const Detail = () => {
         <div className="relative">
           <p className="font-msMadi left-1/2 -translate-x-1/2 -top-12 absolute text-9xl opacity-10 -rotate-2">Dani</p>
           <p className="font-cinzel text-2xl">Muhammad Hamdani</p>
-          <p>Putra pertama Bapak Sadi dan Ibu Khusnul Wati</p>
+          <p className="font-semibold">Putra Pertama</p>
+          <p>Bapak Sadi dan Ibu Khusnul Wati</p>
 
         </div>
         <p className="text-md">dengan</p>
         <div className="relative">
         <p className="font-msMadi -top-12 left-1/2 -translate-x-1/2 absolute text-9xl opacity-10 -rotate-2">Rima</p>
           <p className="font-cinzel text-2xl">Siti Karimatus Sa'adah</p>
-          <p>Putri pertama Bapak Mahbub Zunaidi dan Ibu Genduk Mu'anis</p>
+          <p className="font-semibold">Putri Pertama</p>
+          <p>Bapak Mahbub Zunaidi dan Ibu Genduk Mu'anis</p>
         </div>
       </div>
     </section>
