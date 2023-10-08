@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage : {
-        'home' : "url('./assets/background.webp')"
+        'home' : "url('./assets/background.webp')",
+        'arRum' : "url('./assets/backg-2.webp')"
       },
       fontFamily : {
         msMadi : 'Ms Madi, cursive',
