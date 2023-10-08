@@ -8,14 +8,14 @@ const Detail = () => {
       <div className="flex flex-col justify-between flex-3 h-2/3 mb-10">
         <div className="relative">
           <p className="font-msMadi left-1/2 -translate-x-1/2 -top-12 absolute text-9xl opacity-10 -rotate-2">Dani</p>
-          <p className="font-cinzel text-xl">Muhammad Hamdani</p>
+          <p className="font-cinzel text-2xl">Muhammad Hamdani</p>
           <p>Putra pertama Bapak Sadi dan Ibu Khusnul Wati</p>
 
         </div>
         <p className="text-md">dengan</p>
         <div className="relative">
         <p className="font-msMadi -top-12 left-1/2 -translate-x-1/2 absolute text-9xl opacity-10 -rotate-2">Rima</p>
-          <p className="font-cinzel text-xl">Siti Karimatus Sa'adah</p>
+          <p className="font-cinzel text-2xl">Siti Karimatus Sa'adah</p>
           <p>Putri pertama Bapak Mahbub Zunaidi dan Ibu Genduk Mu'anis</p>
         </div>
       </div>
