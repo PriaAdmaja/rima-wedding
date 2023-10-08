@@ -1,6 +1,6 @@
-const Home = ({isOpen, setIsOpen}) => {
+const Home = ({isOpen, setIsOpen, playMusic}) => {
   return (
-    <section className={`${isOpen ? 'hidden' : 'block'} transition ease-in-out duration-500 fixed z-50 h-screen bg-home bg-cover w-full`}>
+    <section className={`${isOpen ? 'opacity-0 z-0' : 'opacity-100 z-50'} transition ease-in-out duration-1000 fixed h-screen bg-home bg-cover w-full`}>
       <div className="bg-[#0D100D]/30 h-full text-center">
         <div className="py-16 h-full flex flex-col justify-around">
           <div>
@@ -11,7 +11,10 @@ const Home = ({isOpen, setIsOpen}) => {
             <p className="text-slate-50">- 18 Oktober 2023 -</p>
           </div>
           <div>
-            <button type="button" className="bg-slate-50 px-3 py-1 rounded-xl font-semibold" onClick={() => setIsOpen(true)}>
+            <button type="button" className="bg-slate-50 px-3 py-1 rounded-xl font-semibold" onClick={() => {
+              setIsOpen(true)
+              playMusic()
+              }}>
               Buka Undangan
             </button>
           </div>

@@ -20,13 +20,13 @@ function App() {
         className="sm:w-[450px] mx-auto font-quicksand text-xl"
         onScroll={playMusic}
       >
-        <Home isOpen={isOpen} setIsOpen={setIsOpen}/>
+        <Home isOpen={isOpen} setIsOpen={setIsOpen} playMusic={playMusic}/>
         <section className=''>
           <ArRum />
           {/* <button onClick={playMusic}>Play Music</button> */}
           <Detail />
           <Acara />
-          <Map />
+          {/* <Map /> */}
         </section>
       </main>
     </>

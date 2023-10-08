@@ -1,7 +1,8 @@
+import daun from '../assets/daun.png'
 const Acara = () => {
   return (
     <section className="h-screen px-5 py-10 text-center text-lg bg-[#ddd7d7] text-[#312F2D] flex flex-col justify-between">
-      <div className="rounded-lg bg-white shadow-lg p-4 h-full flex flex-col justify-around">
+      <div className="rounded-lg bg-white shadow-lg p-4 h-full flex flex-col justify-around items-center">
         <div className="flex flex-col justify-center items-center w-full">
           <p className="font-bold border-b-[2px] border-b-solid border-b-black mb-2">
             AKAD NIKAH
@@ -9,6 +10,7 @@ const Acara = () => {
           <p>Rabu, 18 Oktober 2023</p>
           <p className="font-semibold">08.00 WIB - selesai</p>
         </div>
+        <img src={daun} alt='daun' width={100}/>
         <div className="flex flex-col justify-center items-center w-full">
           <p className="font-bold border-b-[2px] border-b-solid border-b-black mb-2">
             RESEPSI
@@ -16,21 +18,19 @@ const Acara = () => {
           <p>Rabu, 18 Oktober 2023</p>
           <p className="font-semibold">10.00 WIB - selesai</p>
         </div>
+        <img src={daun} alt='daun' width={100} className='rotate-180'/>
         <div className="flex flex-col justify-center items-center w-full">
           <p className="font-bold border-b-[2px] border-b-solid border-b-black mb-2">
             LOKASI
           </p>
-          <p>RT.16 RW.03 Jegulo Soko Tuban</p>
-          {/* <button
-            type="button"
-            className="py-1 px-3 shadow-lg mt-2"
-            onClick={() =>
-              window.location.href("https://maps.app.goo.gl/N4CqrDC3enw7sAj69")
-            }
+          <p>Kediaman mempelai wanita</p>
+          <p className="font-semibold">RT.16 RW.03 Jegulo Soko Tuban</p>
+          <a
+            href="https://maps.app.goo.gl/N4CqrDC3enw7sAj69"
+            className="py-1 px-5 shadow-lg mt-4 bg-[#605d56] text-white rounded-md"
           >
             Open Map
-          </button> */}
-          <a href="https://maps.app.goo.gl/N4CqrDC3enw7sAj69">Open Map</a>
+          </a>
         </div>
       </div>
     </section>
