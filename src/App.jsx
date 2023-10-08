@@ -12,7 +12,7 @@ function App() {
   }
   return (
     <>
-      <main className="sm:w-[450px] mx-auto font-quicksand text-lg" onScroll={playMusic}>
+      <main className="sm:w-[450px] mx-auto font-quicksand text-xl" onScroll={playMusic}>
         <Home />
         {/* <button onClick={playMusic}>Play Music</button> */}
         <Detail />
