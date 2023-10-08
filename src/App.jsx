@@ -9,10 +9,11 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   const musicSrc = "../public/music.mp3";
+  // const musicSrc = "https://soundcloud.com/corbel-keep/christina-perri-a-thousand-10?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing";
   const playMusic = () => {
     const audio = new Audio(musicSrc);
     audio.play();
-    console.log("music");
+    // console.log("music");
   };
   return (
     <>
