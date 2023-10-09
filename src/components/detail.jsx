@@ -1,6 +1,6 @@
 const Detail = () => {
   return (
-    <section className="h-screen text-[#312F2D] px-5 py-10 text-center text-lg flex flex-col justify-around bg-[#FFF9F4]">
+    <section className="h-screen min-h-[700px] text-[#312F2D] px-5 py-10 text-center text-lg flex flex-col justify-around bg-[#FFF9F4]">
       <p className="h-1/3">
         Dengan memohon Rahmat dan Ridho Allah SWT, Kami bermaksud mengundang
         Bapak/Ibu/Saudara/i untuk hadir dalam pernikahan putra/putri kami

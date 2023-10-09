@@ -2,7 +2,7 @@ import rings from '../assets/wedding-rings.svg'
 
 const Notes = () => {
   return (
-    <section className="h-screen px-5 py-10 text-center text-xl bg-[#ddd7d7] text-[#221e1a] flex flex-col items-center">
+    <section className="h-screen min-h-[800px] px-5 py-10 text-center text-xl bg-[#ddd7d7] text-[#221e1a] flex flex-col items-center">
       <div className="flex flex-col gap-3 h-1/2">
         <p>
           Dengan segala kerendahan hati, kami sangat berbahagia bisa membagi

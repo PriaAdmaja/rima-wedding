@@ -1,6 +1,6 @@
 const ArRum = () => {
   return (
-    <section className="h-screen bg-arRum bg-cover bg-fixed text-center flex justify-center items-center p-5">
+    <section className="h-screen min-h-[600px] bg-arRum bg-cover bg-fixed text-center flex justify-center items-center p-5">
       <div className="bg-[#0D100D]/30 h-full">
         <div className="w-full h-full bg-[#0D100D]/30 rounded-lg flex flex-col justify-center items-center gap-10 p-3">
           <p className="font-semibold text-[#FFF9F4]">
