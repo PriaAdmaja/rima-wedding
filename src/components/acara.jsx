@@ -4,7 +4,7 @@ const Acara = () => {
     <section className="h-screen px-5 py-10 text-center text-lg bg-[#ddd7d7] text-[#312F2D] flex flex-col justify-between">
       <div className="rounded-lg bg-white shadow-lg p-4 h-full flex flex-col justify-around items-center">
         <div className="flex flex-col justify-center items-center w-full">
-          <p className="font-bold font-cinzel border-b-[2px] border-b-solid border-b-black mb-2">
+          <p className="font-bold text-xl font-cinzel border-b-[2px] border-b-solid border-b-black mb-2">
             Akad Nikah
           </p>
           <p>Rabu, 18 Oktober 2023</p>
@@ -12,7 +12,7 @@ const Acara = () => {
         </div>
         <img src={daun} alt='daun' width={100}/>
         <div className="flex flex-col justify-center items-center w-full">
-          <p className="font-bold font-cinzel border-b-[2px] border-b-solid border-b-black mb-2">
+          <p className="font-bold text-xl font-cinzel border-b-[2px] border-b-solid border-b-black mb-2">
             Resepsi
           </p>
           <p>Rabu, 18 Oktober 2023</p>
@@ -20,7 +20,7 @@ const Acara = () => {
         </div>
         <img src={daun} alt='daun' width={100} className='rotate-180'/>
         <div className="flex flex-col justify-center items-center w-full">
-          <p className="font-bold font-cinzel border-b-[2px] border-b-solid border-b-black mb-2">
+          <p className="font-bold text-xl font-cinzel border-b-[2px] border-b-solid border-b-black mb-2">
             Lokasi
           </p>
           <p>Kediaman mempelai wanita</p>

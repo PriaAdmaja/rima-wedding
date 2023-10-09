@@ -8,7 +8,8 @@ export default {
     extend: {
       backgroundImage : {
         'home' : "url('./assets/background.webp')",
-        'arRum' : "url('./assets/backg-2.webp')"
+        'arRum' : "url('./assets/backg-2.webp')",
+        'waterColor': "url('./assets/watercolor.jpg')"
       },
       fontFamily : {
         msMadi : 'Ms Madi, cursive',

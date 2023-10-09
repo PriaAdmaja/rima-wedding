@@ -4,6 +4,7 @@ import ArRum from "./components/arRum";
 import Detail from "./components/detail";
 import Home from "./components/home";
 import Map from "./components/map";
+import Notes from "./components/notes";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,12 +23,11 @@ function App() {
         onScroll={playMusic}
       >
         <Home isOpen={isOpen} setIsOpen={setIsOpen} playMusic={playMusic}/>
-        <section className=''>
+        <section className={`${isOpen ? 'block' : 'hidden'}`}>
           <ArRum />
-          {/* <button onClick={playMusic}>Play Music</button> */}
           <Detail />
           <Acara />
-          {/* <Map /> */}
+          <Notes />
         </section>
       </main>
     </>
