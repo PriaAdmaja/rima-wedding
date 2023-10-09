@@ -1,4 +1,5 @@
 import daun from '../assets/daun.png'
+
 const Acara = () => {
   return (
     <section className="h-screen px-5 py-10 text-center text-lg bg-[#ddd7d7] text-[#312F2D] flex flex-col justify-between">

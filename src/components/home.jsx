@@ -1,6 +1,6 @@
 const Home = ({isOpen, setIsOpen, playMusic}) => {
   return (
-    <section className={`${isOpen ? 'opacity-0 z-0' : 'opacity-100 z-50'} transition ease-in-out duration-1000 fixed top-0 left-0 mx-auto h-screen bg-home bg-cover w-full`}>
+    <section className={`${isOpen ? 'opacity-0 -z-50' : 'opacity-100 z-50'} transition ease-in-out duration-1000 fixed top-0 left-0 mx-auto h-screen bg-home bg-cover w-full`}>
       <div className="bg-[#0D100D]/30 h-full text-center">
         <div className="py-16 h-full flex flex-col justify-around">
           <div>
